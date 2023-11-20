@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+header {
+    background-color: rgb(65, 54, 47);
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 50px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d5c8bb;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: antiquewhite
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.search-input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.search-button {
+    background-color: rgb(41, 37, 33);
+    color: #d5c8bb;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.advertisement-banner {
+    background-image: url('https://rituals.scene7.com/is/image/rituals/1116194-rituals-ch23073b-sakura-2023-gwp:4-by-3?wid=960&hei=720');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    margin-left: 10px;
+}
+
+.banner-text {
+    max-width: 600px;
+}
+
+.banner-button {
+    margin-top: 20px;
+}
+
+.banner-logo {
+    max-width: 100px;
+    max-height: 50px;
+}
+
+h3 {
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#textCarousel {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 40px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 15%;
+}
+
+
+.carousel-indicators {
+    bottom: 0.1px;
+
+}
+
+.carousel-indicators li {
+    background-color: #888;
+}
+
+.carousel-indicators .active {
+    background-color: #555;
+}
+
+p {
+    font-family: monospace;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-link {
+    color: #000;
+
+}
+
+.btn-link:hover {
+    text-decoration: none;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #d5c8bb;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.login-link :hover {
+    text-decoration: underline;
+    color: antiquewhite
+}
+
+
+.footer {
+    background-color: rgb(65, 54, 47);
+    color: #d5c8bb;
+    padding: 30px 0;
+    padding-bottom: 10px;
+}
+
+.footer a {
+    color: #7f776f;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-icons i {
+    transition: color 0.3s ease-in-out;
+}
+
+.list-inline-item {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: auto;
+}
+
+.list-inline.social-icons {
+    margin: 0;
+    padding: 0;
+}
+
+.list-inline-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-logo {
+    position: flex;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+}
+
+.footer-logo img {
+    width: 80px; 
+    height: auto;
+}
+
+.product-cards-container {
+    margin-bottom: 40px; 
+}
